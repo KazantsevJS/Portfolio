@@ -306,3 +306,53 @@ body {
 		width: 28px;
 	}
 }
+
+.certificates-list {
+	list-style: none;
+	padding: 0;
+	margin-top: 30px;
+}
+
+.certificate-item {
+	margin-bottom: 15px;
+	padding: 15px;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	transition: all 0.3s ease;
+}
+
+.certificate-item:hover {
+	background-color: #f9f9f9;
+	transform: translateX(5px);
+}
+
+/* Светлая тема по умолчанию */
+.certificate-item a {
+	font-size: 1.2rem;
+	color: var(--pink);
+	text-decoration: none;
+	display: block;
+	transition: color 0.3s ease;
+}
+
+.certificate-item a:hover {
+	color: var(--blackpure);
+	text-decoration: underline;
+}
+
+/* Темная тема */
+.dark .certificate-item {
+	border-color: var(--black-border);
+}
+
+.dark .certificate-item:hover {
+	background-color: var(--black-border);
+}
+
+.dark .certificate-item a {
+	color: var(--pink);
+}
+
+.dark .certificate-item a:hover {
+	color: var(--white);
+}

@@ -38,6 +38,16 @@ function Navbar() {
 								Projects
 							</NavLink>
 						</li>
+						<li className='nav-list__item'>
+							<NavLink
+								to='/certificates'
+								className={({ isActive }) =>
+									isActive ? activeLink : normalLink
+								}
+							>
+								Certificates
+							</NavLink>
+						</li>
 					</ul>
 				</div>
 			</div>
