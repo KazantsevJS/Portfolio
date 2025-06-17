@@ -1,7 +1,7 @@
 const certificateList = [
 	{
 		id: 0,
-		title: 'English level B2',
+		title: 'EF SET English (B2 Upper Intermediate)',
 		link: 'https://drive.google.com/file/d/1t2XN7LKhR976bECmym9WauqBXoy40Dcr/view?usp=drive_link',
 	},
 	{
