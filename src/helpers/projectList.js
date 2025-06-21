@@ -1,8 +1,9 @@
 import project01 from './../img/projects/01.jpg'
 import project03 from './../img/projects/03.jpg'
 import project06 from './../img/projects/06.jpg'
-import project10 from './../img/projects/10.jpg'
-import project11 from './../img/projects/11.jpg'
+import project10 from './../img/projects/10.png'
+import project11 from './../img/projects/11.png'
+import project12 from './../img/projects/12.png'
 
 const projects = [
 	{
@@ -37,6 +38,13 @@ const projects = [
 		skills: 'HTML, CSS, JavaScript, ReactJS',
 		img: project11,
 		gitHubLink: 'https://quiz-vert-eight.vercel.app/',
+	},
+	{
+		id: 5,
+		title: 'Netflix',
+		skills: 'HTML, CSS, JavaScript, ReactJS',
+		img: project12,
+		gitHubLink: 'https://netflix-mocha-kappa.vercel.app/',
 	},
 ]
 
