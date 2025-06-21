@@ -1,10 +1,10 @@
 import './footer.css'
 
-import gitHub from './../../img/icons/gitHub.svg'
-import gmail from './../../img/icons/gmail.svg'
-import linkedIn from './../../img/icons/linkedIn.svg'
-import telegram from './../../img/icons/telegram.svg'
-import whatsapp from './../../img/icons/whatsapp.svg'
+import gitHub from './../../media/icons/gitHub.svg'
+import gmail from './../../media/icons/gmail.svg'
+import linkedIn from './../../media/icons/linkedIn.svg'
+import telegram from './../../media/icons/telegram.svg'
+import whatsapp from './../../media/icons/whatsapp.svg'
 
 const Footer = () => {
 	return (

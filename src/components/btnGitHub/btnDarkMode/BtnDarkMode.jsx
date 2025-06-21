@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { detectDarkMode } from '../../../utils/detectDarkMode'
 import { useLocalStorage } from '../../../utils/useLocalStorage'
-import moon from './../../../img/icons/moon.svg'
-import sun from './../../../img/icons/sun2.svg'
+import moon from './../../../media/icons/moon.svg'
+import sun from './../../../media/icons/sun2.svg'
 import './btnDarkMode.css'
 
 const BtnDarkMode = () => {
@@ -23,7 +23,7 @@ const BtnDarkMode = () => {
 	useEffect(() => {
 		window.matchMedia('(prefers-color-scheme: dark)').addEventListener(
 			'change',
-			event => {
+			(event) => {
 				const newColorScheme = event.matches ? 'dark' : 'light'
 				setDarkMode(newColorScheme)
 			},
@@ -32,7 +32,7 @@ const BtnDarkMode = () => {
 	})
 
 	const toggleDarkMode = () => {
-		setDarkMode(currentValue => {
+		setDarkMode((currentValue) => {
 			return currentValue === 'light' ? 'dark' : 'light'
 		})
 	}

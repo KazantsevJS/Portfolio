@@ -1,9 +1,9 @@
-import project03 from './../img/projects/03.jpg'
-import project06 from './../img/projects/06.jpg'
-import project10 from './../img/projects/10.png'
-import project11 from './../img/projects/11.png'
-import project12 from './../img/projects/12.png'
-import project01 from './../img/projects/agroton.mp4'
+import project03 from './../media/projects/MovieApp.mp4'
+import project06 from './../media/projects/06.jpg'
+import project10 from './../media/projects/10.png'
+import project11 from './../media/projects/quiz.mp4'
+import project12 from './../media/projects/12.png'
+import project01 from './../media/projects/agroton.mp4'
 
 const projects = [
 	{
@@ -19,7 +19,7 @@ const projects = [
 		title: 'Movie app',
 		skills: 'HTML, CSS, JavaScript',
 		media: project03,
-		mediaType: 'image',
+		mediaType: 'video',
 		gitHubLink: 'https://pauzhetsky.github.io/MovieApp/',
 	},
 	{
@@ -41,7 +41,7 @@ const projects = [
 		title: 'Java Quiz',
 		skills: 'HTML, CSS, JavaScript, ReactJS',
 		media: project11,
-		mediaType: 'image',
+		mediaType: 'video',
 		gitHubLink: 'https://quiz-vert-eight.vercel.app/',
 	},
 	{
