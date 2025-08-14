@@ -1,10 +1,10 @@
-import './footer.css'
+import './footer.css';
 
-import gitHub from './../../media/icons/gitHub.svg'
-import gmail from './../../media/icons/gmail.svg'
-import linkedIn from './../../media/icons/linkedIn.svg'
-import telegram from './../../media/icons/telegram.svg'
-import whatsapp from './../../media/icons/whatsapp.svg'
+import gitHub from './../../media/icons/gitHub.svg';
+import gmail from './../../media/icons/gmail.svg';
+import linkedIn from './../../media/icons/linkedIn.svg';
+import telegram from './../../media/icons/telegram.svg';
+import whatsapp from './../../media/icons/whatsapp.svg';
 
 const Footer = () => {
 	return (
@@ -14,7 +14,7 @@ const Footer = () => {
 					<ul className='social'>
 						<li className='social__item'>
 							<a
-								href='https://t.me/Pauzhetsky'
+								href='https://t.me/KazantsevJS'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -23,7 +23,7 @@ const Footer = () => {
 						</li>
 						<li className='social__item'>
 							<a
-								href='https://wa.me/79065722500'
+								href='https://wa.me/79960302435'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -32,7 +32,7 @@ const Footer = () => {
 						</li>
 						<li className='social__item'>
 							<a
-								href='mailto:kazancev.alex2020@mail.com'
+								href='mailto:ale.kazantsev@mail.astondevs.ru'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -41,7 +41,7 @@ const Footer = () => {
 						</li>
 						<li className='social__item'>
 							<a
-								href='https://github.com/Pauzhetsky?tab=repositories'
+								href='https://github.com/KazantsevJS?tab=repositories'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -50,7 +50,7 @@ const Footer = () => {
 						</li>
 						<li className='social__item'>
 							<a
-								href='https://www.linkedin.com/in/pauzhetsky'
+								href='https://www.linkedin.com/'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -61,7 +61,7 @@ const Footer = () => {
 				</div>
 			</div>
 		</footer>
-	)
-}
+	);
+};
 
-export default Footer
+export default Footer;
