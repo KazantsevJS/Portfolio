@@ -1,4 +1,4 @@
-import './header.css'
+import './header.css';
 
 const Header = () => {
 	return (
@@ -19,7 +19,7 @@ const Header = () => {
 					</p>
 				</div>
 				<a
-					href='https://drive.google.com/file/d/1X-N1jMK40mpeOhTYwZE4QyX2Yk1FKc49/view?usp=drive_link'
+					href='https://drive.google.com/file/d/12lBn49SZxTrUeVOK_bcESWiqQfpEFkOK/view?usp=sharing'
 					target='_blank'
 					rel='noopener noreferrer'
 					className='btn'
@@ -28,7 +28,7 @@ const Header = () => {
 				</a>
 			</div>
 		</header>
-	)
-}
+	);
+};
 
-export default Header
+export default Header;
